@@ -15,4 +15,4 @@ void TowerHanoi( int m, int i, int j ){
 		printf("Move dice %d from %d to %d\n", m , i , j);
 		TowerHanoi( m - 1, k, j);
 	}
-}
+}//end function
